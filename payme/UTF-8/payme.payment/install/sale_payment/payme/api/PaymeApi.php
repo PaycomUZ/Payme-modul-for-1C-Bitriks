@@ -385,7 +385,7 @@ class PaymeApi {
 
 	public function payme_ChangePassword() {
 
-		$this->paymentSystemParams['P_SECURE_KEY_TEST']['VALUE'] = $this->inputArray['params']['password'];		
+		$this->paymentSystemParams['P_SECURE_KEY']['VALUE'] = $this->inputArray['params']['password'];		
 
 		$updRes = CSalePaySystemAction::update(
 
