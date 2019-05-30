@@ -39,7 +39,7 @@ $arPSCorrespondence = array(
 		'VALUE' => '',
 		'TYPE'  => 'VALUE',
 		'DEFAULT' => array(
-				'PROVIDER_VALUE' =>'www.' . $_SERVER['SERVER_NAME'] . '/personal/order/notification.php',
+				'PROVIDER_VALUE' =>'http://' . $_SERVER['SERVER_NAME'] . '/personal/order/notification.php',
 				'PROVIDER_KEY' => 'VALUE',
 			)
 	),
@@ -51,7 +51,7 @@ $arPSCorrespondence = array(
 		'VALUE' => '',
 		'TYPE'  => 'VALUE',
 		'DEFAULT' => array(
-				'PROVIDER_VALUE' => 'www.' . $_SERVER['SERVER_NAME'] . '/personal/order/',
+				'PROVIDER_VALUE' => 'http://' . $_SERVER['SERVER_NAME'] . '/personal/order/',
 				'PROVIDER_KEY' => 'VALUE',
 			)
 	),
