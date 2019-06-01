@@ -66,7 +66,7 @@ class PaymeApi {
 
 			$merchantKey=""; 
 
-			if ($this->paymentSystemParams['TEST_MODE']['VALUE']) {
+			if ($this->paymentSystemParams['TEST_MODE']['VALUE']=='Y') {
 
 				$merchantKey=html_entity_decode($this->paymentSystemParams['P_SECURE_KEY_TEST']['VALUE'] );
 
