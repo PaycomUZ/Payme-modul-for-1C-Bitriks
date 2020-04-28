@@ -54,7 +54,7 @@ class PaymeApi {
 		if ($this->result) {
 
 			global $DB;
-			$dbPaySystem = CSalePaySystemAction::GetList(Array("SORT"=>"ASC"), Array("ACTIVE" => "Y", "Name" => 'Payme.uz'), false, false, 	array("ID", "ACTION_FILE", "PARAMS"));
+			$dbPaySystem = CSalePaySystemAction::GetList(Array("SORT"=>"ASC"), Array("ACTIVE" => "Y", "NAME" => 'Payme.uz'), false, false, 	array("ID", "ACTION_FILE", "PARAMS"));
 
 			while($ps = $dbPaySystem->Fetch()) {
 
